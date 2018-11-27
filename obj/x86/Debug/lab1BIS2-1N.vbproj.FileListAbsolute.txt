@@ -1,0 +1,27 @@
+C:\Users\user\AppData\Local\Temporary Projects\lab1BIS2-1N\bin\Debug\lab1BIS2-1N.exe
+C:\Users\user\AppData\Local\Temporary Projects\lab1BIS2-1N\bin\Debug\lab1BIS2-1N.pdb
+C:\Users\user\AppData\Local\Temporary Projects\lab1BIS2-1N\bin\Debug\lab1BIS2-1N.xml
+C:\Users\user\AppData\Local\Temporary Projects\lab1BIS2-1N\obj\x86\Debug\lab1BIS2_1N.Form1.resources
+C:\Users\user\AppData\Local\Temporary Projects\lab1BIS2-1N\obj\x86\Debug\lab1BIS2_1N.Resources.resources
+C:\Users\user\AppData\Local\Temporary Projects\lab1BIS2-1N\obj\x86\Debug\lab1BIS2-1N.vbproj.GenerateResource.Cache
+C:\Users\user\AppData\Local\Temporary Projects\lab1BIS2-1N\obj\x86\Debug\lab1BIS2-1N.exe
+C:\Users\user\AppData\Local\Temporary Projects\lab1BIS2-1N\obj\x86\Debug\lab1BIS2-1N.xml
+C:\Users\user\AppData\Local\Temporary Projects\lab1BIS2-1N\obj\x86\Debug\lab1BIS2-1N.pdb
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\obj\x86\Debug\lab1BIS2-1N.exe
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\obj\x86\Debug\lab1BIS2-1N.xml
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\obj\x86\Debug\lab1BIS2-1N.pdb
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\bin\Debug\lab1BIS2-1N.exe
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\bin\Debug\lab1BIS2-1N.pdb
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\bin\Debug\lab1BIS2-1N.xml
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\obj\x86\Debug\lab1BIS2_1N.Form1.resources
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\obj\x86\Debug\lab1BIS2_1N.Resources.resources
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\obj\x86\Debug\lab1BIS2-1N.vbproj.GenerateResource.Cache
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\VBLAB1\obj\x86\Debug\lab1BIS2-1N.exe
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\VBLAB1\obj\x86\Debug\lab1BIS2-1N.xml
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\VBLAB1\obj\x86\Debug\lab1BIS2-1N.pdb
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\VBLAB1\bin\Debug\lab1BIS2-1N.exe
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\VBLAB1\bin\Debug\lab1BIS2-1N.pdb
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\VBLAB1\bin\Debug\lab1BIS2-1N.xml
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\VBLAB1\obj\x86\Debug\lab1BIS2_1N.Form1.resources
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\VBLAB1\obj\x86\Debug\lab1BIS2_1N.Resources.resources
+C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\VBLAB1\obj\x86\Debug\lab1BIS2-1N.vbproj.GenerateResource.Cache
