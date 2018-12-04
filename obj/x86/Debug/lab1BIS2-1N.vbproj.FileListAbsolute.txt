@@ -25,3 +25,15 @@ C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\VBLAB1\bin\Debug\lab1BIS2-1N.xml
 C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\VBLAB1\obj\x86\Debug\lab1BIS2_1N.Form1.resources
 C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\VBLAB1\obj\x86\Debug\lab1BIS2_1N.Resources.resources
 C:\Users\user\Desktop\lab1BIS2-1N\lab1BIS2-1N\VBLAB1\obj\x86\Debug\lab1BIS2-1N.vbproj.GenerateResource.Cache
+D:\VBLAB1\bin\Debug\lab1BIS2-1N.exe
+D:\VBLAB1\bin\Debug\lab1BIS2-1N.pdb
+D:\VBLAB1\bin\Debug\lab1BIS2-1N.xml
+D:\VBLAB1\obj\x86\Debug\lab1BIS2-1N.vbprojAssemblyReference.cache
+D:\VBLAB1\obj\x86\Debug\lab1BIS2_1N.Form1.resources
+D:\VBLAB1\obj\x86\Debug\lab1BIS2_1N.Form2.resources
+D:\VBLAB1\obj\x86\Debug\lab1BIS2_1N.Resources.resources
+D:\VBLAB1\obj\x86\Debug\lab1BIS2-1N.vbproj.GenerateResource.cache
+D:\VBLAB1\obj\x86\Debug\lab1BIS2-1N.vbproj.CoreCompileInputs.cache
+D:\VBLAB1\obj\x86\Debug\lab1BIS2-1N.exe
+D:\VBLAB1\obj\x86\Debug\lab1BIS2-1N.xml
+D:\VBLAB1\obj\x86\Debug\lab1BIS2-1N.pdb
