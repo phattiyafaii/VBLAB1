@@ -37,3 +37,4 @@ D:\VBLAB1\obj\x86\Debug\lab1BIS2-1N.vbproj.CoreCompileInputs.cache
 D:\VBLAB1\obj\x86\Debug\lab1BIS2-1N.exe
 D:\VBLAB1\obj\x86\Debug\lab1BIS2-1N.xml
 D:\VBLAB1\obj\x86\Debug\lab1BIS2-1N.pdb
+D:\VBLAB1\obj\x86\Debug\lab1BIS2_1N.frmLab3.resources
