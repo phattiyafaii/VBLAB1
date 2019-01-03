@@ -27,17 +27,17 @@ Partial Class frmLab3
         Me.btnDown = New System.Windows.Forms.Button()
         Me.cboSize = New System.Windows.Forms.ComboBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.lblFRed = New System.Windows.Forms.Label()
-        Me.lblFBlue = New System.Windows.Forms.Label()
-        Me.lblFGreen = New System.Windows.Forms.Label()
-        Me.lblFViolet = New System.Windows.Forms.Label()
-        Me.lblFBlack = New System.Windows.Forms.Label()
-        Me.lblFOrange = New System.Windows.Forms.Label()
-        Me.lblFYellow = New System.Windows.Forms.Label()
-        Me.lblFBrown = New System.Windows.Forms.Label()
-        Me.lblFWhite = New System.Windows.Forms.Label()
         Me.lblFSky = New System.Windows.Forms.Label()
+        Me.lblFWhite = New System.Windows.Forms.Label()
+        Me.lblFBrown = New System.Windows.Forms.Label()
+        Me.lblFYellow = New System.Windows.Forms.Label()
+        Me.lblFOrange = New System.Windows.Forms.Label()
+        Me.lblFBlack = New System.Windows.Forms.Label()
+        Me.lblFViolet = New System.Windows.Forms.Label()
+        Me.lblFGreen = New System.Windows.Forms.Label()
+        Me.lblFBlue = New System.Windows.Forms.Label()
+        Me.lblFRed = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.lblBSky = New System.Windows.Forms.Label()
         Me.lblBWhite = New System.Windows.Forms.Label()
         Me.lblBBrown = New System.Windows.Forms.Label()
@@ -88,12 +88,13 @@ Partial Class frmLab3
         '
         'cboSize
         '
+        Me.cboSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSize.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.cboSize.FormattingEnabled = True
         Me.cboSize.Items.AddRange(New Object() {"12", "14", "16", "18", "20", "22", "24", "26", "28", "30", "32", "34", "36", "38", "40", "42", "44", "46", "48", "50"})
-        Me.cboSize.Location = New System.Drawing.Point(423, 148)
+        Me.cboSize.Location = New System.Drawing.Point(404, 148)
         Me.cboSize.Name = "cboSize"
-        Me.cboSize.Size = New System.Drawing.Size(37, 24)
+        Me.cboSize.Size = New System.Drawing.Size(56, 24)
         Me.cboSize.TabIndex = 3
         '
         'GroupBox1
@@ -118,6 +119,116 @@ Partial Class frmLab3
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "ForeColor"
         '
+        'lblFSky
+        '
+        Me.lblFSky.AutoSize = True
+        Me.lblFSky.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblFSky.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblFSky.Location = New System.Drawing.Point(165, 51)
+        Me.lblFSky.Name = "lblFSky"
+        Me.lblFSky.Size = New System.Drawing.Size(30, 24)
+        Me.lblFSky.TabIndex = 9
+        Me.lblFSky.Text = "    "
+        '
+        'lblFWhite
+        '
+        Me.lblFWhite.AutoSize = True
+        Me.lblFWhite.BackColor = System.Drawing.Color.White
+        Me.lblFWhite.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblFWhite.Location = New System.Drawing.Point(133, 51)
+        Me.lblFWhite.Name = "lblFWhite"
+        Me.lblFWhite.Size = New System.Drawing.Size(30, 24)
+        Me.lblFWhite.TabIndex = 8
+        Me.lblFWhite.Text = "    "
+        '
+        'lblFBrown
+        '
+        Me.lblFBrown.AutoSize = True
+        Me.lblFBrown.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lblFBrown.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblFBrown.Location = New System.Drawing.Point(101, 50)
+        Me.lblFBrown.Name = "lblFBrown"
+        Me.lblFBrown.Size = New System.Drawing.Size(30, 24)
+        Me.lblFBrown.TabIndex = 7
+        Me.lblFBrown.Text = "    "
+        '
+        'lblFYellow
+        '
+        Me.lblFYellow.AutoSize = True
+        Me.lblFYellow.BackColor = System.Drawing.Color.Yellow
+        Me.lblFYellow.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblFYellow.Location = New System.Drawing.Point(70, 51)
+        Me.lblFYellow.Name = "lblFYellow"
+        Me.lblFYellow.Size = New System.Drawing.Size(30, 24)
+        Me.lblFYellow.TabIndex = 6
+        Me.lblFYellow.Text = "    "
+        '
+        'lblFOrange
+        '
+        Me.lblFOrange.AutoSize = True
+        Me.lblFOrange.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lblFOrange.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblFOrange.Location = New System.Drawing.Point(39, 50)
+        Me.lblFOrange.Name = "lblFOrange"
+        Me.lblFOrange.Size = New System.Drawing.Size(30, 24)
+        Me.lblFOrange.TabIndex = 5
+        Me.lblFOrange.Text = "    "
+        '
+        'lblFBlack
+        '
+        Me.lblFBlack.AutoSize = True
+        Me.lblFBlack.BackColor = System.Drawing.Color.Black
+        Me.lblFBlack.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblFBlack.Location = New System.Drawing.Point(164, 25)
+        Me.lblFBlack.Name = "lblFBlack"
+        Me.lblFBlack.Size = New System.Drawing.Size(30, 24)
+        Me.lblFBlack.TabIndex = 4
+        Me.lblFBlack.Text = "    "
+        '
+        'lblFViolet
+        '
+        Me.lblFViolet.AutoSize = True
+        Me.lblFViolet.BackColor = System.Drawing.Color.Fuchsia
+        Me.lblFViolet.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblFViolet.Location = New System.Drawing.Point(133, 25)
+        Me.lblFViolet.Name = "lblFViolet"
+        Me.lblFViolet.Size = New System.Drawing.Size(30, 24)
+        Me.lblFViolet.TabIndex = 3
+        Me.lblFViolet.Text = "    "
+        '
+        'lblFGreen
+        '
+        Me.lblFGreen.AutoSize = True
+        Me.lblFGreen.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lblFGreen.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblFGreen.Location = New System.Drawing.Point(102, 25)
+        Me.lblFGreen.Name = "lblFGreen"
+        Me.lblFGreen.Size = New System.Drawing.Size(30, 24)
+        Me.lblFGreen.TabIndex = 2
+        Me.lblFGreen.Text = "    "
+        '
+        'lblFBlue
+        '
+        Me.lblFBlue.AutoSize = True
+        Me.lblFBlue.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.lblFBlue.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblFBlue.Location = New System.Drawing.Point(70, 25)
+        Me.lblFBlue.Name = "lblFBlue"
+        Me.lblFBlue.Size = New System.Drawing.Size(30, 24)
+        Me.lblFBlue.TabIndex = 1
+        Me.lblFBlue.Text = "    "
+        '
+        'lblFRed
+        '
+        Me.lblFRed.AutoSize = True
+        Me.lblFRed.BackColor = System.Drawing.Color.Red
+        Me.lblFRed.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.lblFRed.Location = New System.Drawing.Point(39, 25)
+        Me.lblFRed.Name = "lblFRed"
+        Me.lblFRed.Size = New System.Drawing.Size(30, 24)
+        Me.lblFRed.TabIndex = 0
+        Me.lblFRed.Text = "    "
+        '
         'GroupBox2
         '
         Me.GroupBox2.AutoSize = True
@@ -139,116 +250,6 @@ Partial Class frmLab3
         Me.GroupBox2.TabIndex = 5
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "BgClolr"
-        '
-        'lblFRed
-        '
-        Me.lblFRed.AutoSize = True
-        Me.lblFRed.BackColor = System.Drawing.Color.Red
-        Me.lblFRed.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lblFRed.Location = New System.Drawing.Point(39, 25)
-        Me.lblFRed.Name = "lblFRed"
-        Me.lblFRed.Size = New System.Drawing.Size(30, 24)
-        Me.lblFRed.TabIndex = 0
-        Me.lblFRed.Text = "    "
-        '
-        'lblFBlue
-        '
-        Me.lblFBlue.AutoSize = True
-        Me.lblFBlue.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lblFBlue.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lblFBlue.Location = New System.Drawing.Point(70, 25)
-        Me.lblFBlue.Name = "lblFBlue"
-        Me.lblFBlue.Size = New System.Drawing.Size(30, 24)
-        Me.lblFBlue.TabIndex = 1
-        Me.lblFBlue.Text = "    "
-        '
-        'lblFGreen
-        '
-        Me.lblFGreen.AutoSize = True
-        Me.lblFGreen.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblFGreen.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lblFGreen.Location = New System.Drawing.Point(102, 25)
-        Me.lblFGreen.Name = "lblFGreen"
-        Me.lblFGreen.Size = New System.Drawing.Size(30, 24)
-        Me.lblFGreen.TabIndex = 2
-        Me.lblFGreen.Text = "    "
-        '
-        'lblFViolet
-        '
-        Me.lblFViolet.AutoSize = True
-        Me.lblFViolet.BackColor = System.Drawing.Color.Fuchsia
-        Me.lblFViolet.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lblFViolet.Location = New System.Drawing.Point(133, 25)
-        Me.lblFViolet.Name = "lblFViolet"
-        Me.lblFViolet.Size = New System.Drawing.Size(30, 24)
-        Me.lblFViolet.TabIndex = 3
-        Me.lblFViolet.Text = "    "
-        '
-        'lblFBlack
-        '
-        Me.lblFBlack.AutoSize = True
-        Me.lblFBlack.BackColor = System.Drawing.Color.Black
-        Me.lblFBlack.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lblFBlack.Location = New System.Drawing.Point(164, 25)
-        Me.lblFBlack.Name = "lblFBlack"
-        Me.lblFBlack.Size = New System.Drawing.Size(30, 24)
-        Me.lblFBlack.TabIndex = 4
-        Me.lblFBlack.Text = "    "
-        '
-        'lblFOrange
-        '
-        Me.lblFOrange.AutoSize = True
-        Me.lblFOrange.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblFOrange.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lblFOrange.Location = New System.Drawing.Point(39, 50)
-        Me.lblFOrange.Name = "lblFOrange"
-        Me.lblFOrange.Size = New System.Drawing.Size(30, 24)
-        Me.lblFOrange.TabIndex = 5
-        Me.lblFOrange.Text = "    "
-        '
-        'lblFYellow
-        '
-        Me.lblFYellow.AutoSize = True
-        Me.lblFYellow.BackColor = System.Drawing.Color.Yellow
-        Me.lblFYellow.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lblFYellow.Location = New System.Drawing.Point(70, 51)
-        Me.lblFYellow.Name = "lblFYellow"
-        Me.lblFYellow.Size = New System.Drawing.Size(30, 24)
-        Me.lblFYellow.TabIndex = 6
-        Me.lblFYellow.Text = "    "
-        '
-        'lblFBrown
-        '
-        Me.lblFBrown.AutoSize = True
-        Me.lblFBrown.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblFBrown.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lblFBrown.Location = New System.Drawing.Point(101, 50)
-        Me.lblFBrown.Name = "lblFBrown"
-        Me.lblFBrown.Size = New System.Drawing.Size(30, 24)
-        Me.lblFBrown.TabIndex = 7
-        Me.lblFBrown.Text = "    "
-        '
-        'lblFWhite
-        '
-        Me.lblFWhite.AutoSize = True
-        Me.lblFWhite.BackColor = System.Drawing.Color.White
-        Me.lblFWhite.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lblFWhite.Location = New System.Drawing.Point(133, 51)
-        Me.lblFWhite.Name = "lblFWhite"
-        Me.lblFWhite.Size = New System.Drawing.Size(30, 24)
-        Me.lblFWhite.TabIndex = 8
-        Me.lblFWhite.Text = "    "
-        '
-        'lblFSky
-        '
-        Me.lblFSky.AutoSize = True
-        Me.lblFSky.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblFSky.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.lblFSky.Location = New System.Drawing.Point(165, 51)
-        Me.lblFSky.Name = "lblFSky"
-        Me.lblFSky.Size = New System.Drawing.Size(30, 24)
-        Me.lblFSky.TabIndex = 9
-        Me.lblFSky.Text = "    "
         '
         'lblBSky
         '

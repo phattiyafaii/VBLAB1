@@ -194,6 +194,7 @@ Partial Class frmJob4
         Me.lblYearSalary.Size = New System.Drawing.Size(145, 23)
         Me.lblYearSalary.TabIndex = 12
         Me.lblYearSalary.Text = "                        "
+        Me.lblYearSalary.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'lblBonus
         '
@@ -206,6 +207,7 @@ Partial Class frmJob4
         Me.lblBonus.Size = New System.Drawing.Size(145, 23)
         Me.lblBonus.TabIndex = 13
         Me.lblBonus.Text = "                        "
+        Me.lblBonus.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'lblAlllncome
         '
@@ -218,6 +220,7 @@ Partial Class frmJob4
         Me.lblAlllncome.Size = New System.Drawing.Size(145, 23)
         Me.lblAlllncome.TabIndex = 14
         Me.lblAlllncome.Text = "                        "
+        Me.lblAlllncome.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'lblAlllowance
         '
@@ -230,6 +233,7 @@ Partial Class frmJob4
         Me.lblAlllowance.Size = New System.Drawing.Size(145, 23)
         Me.lblAlllowance.TabIndex = 15
         Me.lblAlllowance.Text = "                        "
+        Me.lblAlllowance.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'lblTax
         '
@@ -242,6 +246,7 @@ Partial Class frmJob4
         Me.lblTax.Size = New System.Drawing.Size(145, 23)
         Me.lblTax.TabIndex = 16
         Me.lblTax.Text = "                        "
+        Me.lblTax.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'GroupBox1
         '

@@ -37,22 +37,22 @@
             If radMember.Checked And radPaid.Checked Then
                 If lblTotal.Text < 1000 Then
                     decDiscount = 0
-                    lblDiscount.Text = "0%"
+                    lblDiscount.Text = Val(lblTotal.Text * decDiscount)
                 ElseIf lblTotal.Text < 5000 Then
                     decDiscount = 0.05
-                    lblDiscount.Text = "5%"
+                    lblDiscount.Text = Val(lblTotal.Text * decDiscount)
                 ElseIf lblTotal.Text < 10000 Then
                     decDiscount = 0.1
-                    lblDiscount.Text = "10%"
-                ElseIf lblTotal.Text > 10000 Then
+                    lblDiscount.Text = Val(lblTotal.Text * decDiscount)
+                ElseIf lblTotal.Text >= 10000 Then
                     decDiscount = 0.15
-                    lblDiscount.Text = "15%"
+                    lblDiscount.Text = Val(lblTotal.Text * decDiscount)
                 End If
                 lblPaid.Text = Val(lblTotal.Text) - Val(lblTotal.Text * decDiscount)
                 lblCredit.Text = 0
             ElseIf radMember.Checked And radCredit.Checked Or radOther.Checked Then
                 decDiscount = 0
-                lblDiscount.Text = "0%"
+                lblDiscount.Text = 0
                 lblPaid.Text = lblTotal.Text
                 lblCredit.Text = lblPaid.Text
 
@@ -60,8 +60,9 @@
         End If
     End Sub
 
+    Private Sub frmLab5_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-
+    End Sub
 
     Private Sub radMember_CheckedChanged(sender As Object, e As EventArgs) Handles radMember.CheckedChanged
         gpdPaid.Enabled = True

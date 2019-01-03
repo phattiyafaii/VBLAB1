@@ -93,4 +93,8 @@
     Private Sub cboSize_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboSize.SelectedIndexChanged
         txtInput.Font = New Font(txtInput.Font.Name, cboSize.SelectedItem, FontStyle.Regular)
     End Sub
+
+    Private Sub frmLab3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

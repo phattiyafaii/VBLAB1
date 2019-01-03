@@ -21,7 +21,7 @@
 
 
         dblYearSalar = txtSalary.Text * 12
-        dblBonus = dblYearSalar * decR_Bonus
+        dblBonus = txtSale.Text * decR_Bonus
         dblAllIncome = dblYearSalar + dblBonus
         dblAllowance = dblAllIncome * decR_ALLOW
         dblTax = Val(dblAllIncome - dblAllowance) * decR_TAX
